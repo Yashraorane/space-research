@@ -16,6 +16,14 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
+app.get('/', (req, res) => {
+  res.json({
+    status: 'ok',
+    service: 'Space Research Backend',
+    health: '/health',
+  });
+});
+
 app.use('/api', apiRateLimiter, nasaRoutes);
 
 app.use(notFoundHandler);
