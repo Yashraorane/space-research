@@ -2,6 +2,14 @@
 
 A production-oriented full-stack coding challenge project that lets users explore NASA data through a modern SaaS dashboard powered by React and Node.js/Express.
 
+## Live Demo
+
+- Frontend: https://space-research-kmbhaquhk-yash-raoranes-projects.vercel.app/
+- Backend: https://space-research-backend.onrender.com
+- Backend health check: https://space-research-backend.onrender.com/health
+
+Note: Backend is hosted on Render free tier, so the first request may be slow after inactivity.
+
 ## Tech Stack
 
 - **Frontend**: React 18, Vite, React Router, Recharts, Framer Motion, modern glassmorphism UI
